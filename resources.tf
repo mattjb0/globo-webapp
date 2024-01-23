@@ -44,8 +44,8 @@ resource "aws_instance" "main" {
 
   user_data_replace_on_change = aws_lb_target_group.main
 
-  user_data = templatefile("./templates/user_data.tpl", {
-   playbook_repository = var.playbook_repository
+  user_data = templatefile("./templates/userdata.sh", {
+    playbook_repository = var.playbook_repository
   })
 }
 
