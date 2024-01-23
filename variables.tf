@@ -45,3 +45,9 @@ variable "tfe_workspace" {
   type        = string
   description = "tfe_workspace"
 }
+
+variable "playbook_repository" {
+  type        = string
+  description = "playbook_repository"
+
+}
