@@ -39,11 +39,11 @@ variable "api_key" {
 
 variable "tfe_organization" {
   type = string
-  description = "(optional) describe your variable"
+  description = "tfe_organization"
 }
 
 variable "tfe_workspace" {
   type = string
-  description = "(optional) describe your variable"
+  description = "tfe_workspace"
   
 }
