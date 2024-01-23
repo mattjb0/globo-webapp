@@ -49,5 +49,14 @@ variable "tfe_workspace" {
 variable "playbook_repository" {
   type        = string
   description = "playbook_repository"
+}
+variable "ec2_role_name" {
+  type        = string
+  description = "ec2_role_name"
 
+}
+
+variable "api_key_secret_id" {
+  type        = string
+  description = "API key Id for web app to talk to SaaS platform."
 }
